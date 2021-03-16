@@ -70,6 +70,7 @@ func serveHTTP() {
 
 //HTTPAPIServerStreamWebRTC stream video over WebRTC
 func HTTPAPIServerStreamWebRTC(c *gin.Context) {
+	c.Header("Access-Control-Allow-Origin", "*")
 	if !Config.ext(c.PostForm("suuid")) {
 		log.Println("Stream Not Found")
 		return
