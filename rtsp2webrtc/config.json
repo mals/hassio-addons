@@ -1,6 +1,6 @@
 {
   "name": "RTSP2WebRTC",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "slug": "rtsp2webrtc",
   "description": "RTSP to WebRTC proxy",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
