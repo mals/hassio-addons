@@ -11,6 +11,9 @@
   "ingress": true,
   "ingress_port": 8083,
   "panel_icon": "mdi:camera-wireless",
+  "ports": {
+    "8083/tcp": 8083
+  },  
   "options": {
     "streams": [{
       "name": "Sonoff",
