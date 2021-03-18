@@ -12,7 +12,7 @@ You must using [Hass.io](https://www.home-assistant.io/hassio/) - supervised [Ho
 
 **Add addon repository**
 
-`https://github.com/AlexxIT/hassio-addons`
+`https://github.com/mals/hassio-addons`
 
 ![](add_repo.png)
 
